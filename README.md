@@ -1,9 +1,9 @@
-<h1 align="center">🚀 SkillLink</h1>
+<h1 align="center">SkillLink</h1>
 <p align="center">A platform that connects Clients and Skilled Workers for local service-based work opportunities.</p>
 
 ---
 
-## 🔥 Tech Stack
+##  Tech Stack
 
 ### **Frontend**
 | Technology | Usage |
@@ -26,7 +26,7 @@
 
 ---
 
-## ⭐ Features
+##  Features
 
 | Feature | Description |
 |--------|-------------|
@@ -49,39 +49,52 @@
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```
 SkillLink/
-│── app.py
-│── database.db
-│── requirements.txt
 │
-│── static/
+├── app.py
+├── config.py
+├── forms.py
+├── models.py
+├── utils.py
+├── requirements.txt
+│
+├── static/
+│   ├── videos/
+|       └──skilllink_bg.mp4    
 │   ├── profile_pics/
 │   ├── govt_ids/
-│   ├── videos/
-│   │    └── skilllink_bg.mp4
-│   ├── css/
-│   │    └── styles.css
-│   └── js/
-│        └── app.js
+│   └── uploads/
 │
-│── templates/
+├── instance/
+│   └── database.db 
+│  
+├── templates/
 │   ├── base.html
 │   ├── login.html
 │   ├── register.html
 │   ├── profile_view.html
 │   ├── edit_profile.html
+│
 │   ├── client_dashboard.html
 │   ├── worker_dashboard.html
+│   ├── admin_dashboard.html
+│   ├── admin_users.html
+│
 │   ├── find_workers.html
 │   ├── find_jobs.html
+│   ├── job_post.html
+│   ├── post_job.html
+│
+│   ├── applications.html
 │   ├── chat.html
-│   ├── admin_dashboard.html
-│   └── admin_users.html
+│   └── notifications.html
+│
+└── README.md
 ```
-
+Note:-Pychache folder will be added after running
 ---
 
 ## 🛠️ Installation
@@ -117,12 +130,12 @@ python app.py
 ```sh
 http://127.0.0.1:5000
 ```
-<b>for Admin </b>
+## for Admin
 Email
 ```sh
 admin@skill.com
 ```
-password
+## admin password
 ```sh
 admin123
 ```
@@ -137,12 +150,12 @@ ___________________
 | Sai Koushik     |
 
 
-🏆 Project Status
-✅ Completed  
-🔜 Planned Upgrades: Real-time chat (WebSockets) & Google Maps Worker Location
+ Project Status
+ Completed  
+ Planned Upgrades: Real-time chat (WebSockets) & Google Maps Worker Location
 
 ---
 
-## ⭐ Show Support
-If you like this project, please ⭐ the repository — it motivates us ❤️
+##  Show Support
+If you like this project, please  the repository — it motivates us 
 
