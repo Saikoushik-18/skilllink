@@ -101,19 +101,31 @@ venv\Scripts\activate
 ```sh
 pip install -r requirements.txt
 ```
+install these modules manually <b>if pip install -r requirements.txt is failed<b>
+```sh
+Flask
+Werkzeug
+SQLAlchemy==2.1.0
+Flask-Login
+Flask-SQLAlchemy
+Flask-wtf
+Flask-form
+```
 ```sh
 python app.py
 ```
 ```sh
 http://127.0.0.1:5000
 ```
-install these modules manually if pip install -r requirements.txt is failed
-Flask
-Werkzeug
-SQLAlchemy==2.1.0
-Flask-Login
-Flask-SQLAlchemy
-
+<b>for Admin </b>
+Email
+```sh
+admin@skill.com
+```
+password
+```sh
+admin123
+```
 ___________________
 | Team Work Pluse |
 | --------------- |
