@@ -116,13 +116,14 @@ pip install -r requirements.txt
 ```
 install these modules manually <b>if pip install -r requirements.txt is failed<b>
 ```sh
-Flask
-Werkzeug
-SQLAlchemy==2.1.0
-Flask-Login
-Flask-SQLAlchemy
-Flask-wtf
-Flask-form
+pip install Flask
+pip install Werkzeug
+pip install SQLAlchemy
+pip install Flask-Login
+pip install Flask-SQLAlchemy
+pip install Flask-wtf
+pip install Flask-form
+pip install email_validator
 ```
 ```sh
 python app.py
